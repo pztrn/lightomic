@@ -1,0 +1,182 @@
+body a:link, body a:visited {
+    color: #008AAB;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia;
+    font-style: italic;
+    margin-bottom: 0;
+}
+
+.entity_actions a, .entity_actions p, .entity_actions .entity_subscribe input, .entity_actions .entity_block input, .entity_actions .entity_moderation input, .entity_actions .entity_role input, .entity_actions .entity_nudge input, .entity_actions .entity_delete input, .entity_actions input.submit {
+    background-color: transparent !important;
+}
+
+.entity_actions a:hover, .entity_actions p:hover, .entity_actions .entity_subscribe input:hover, .entity_actions .entity_block input:hover, .entity_actions .entity_moderation input:hover, .entity_actions .entity_role input:hover, .entity_actions .entity_nudge input:hover, .entity_actions .entity_delete input:hover, .entity_actions input.submit:hover {
+    background-color: transparent !important;
+    text-decoration: underline;
+}
+
+#pagination {
+    background-color: transparent;
+}
+#pagination .nav_next a {
+    background-position: 115% -253px;
+}
+#pagination .nav_prev a {
+    background-position: 0 -188px;
+}
+
+#site_contact {
+    margin-left: 715px;
+    width: 100%;
+}
+
+#wrap {
+    padding-top: 0;
+    border: none;
+    background: transparent;
+}
+
+#header {
+    padding-top: 10px;
+    overflow: hidden;
+}
+#header address {
+    float: none;
+    height: 35px;
+    padding: 10px 20px;
+    font-size: 39px;
+    line-height: 39px;
+}
+
+#header address a:link, #header address a:visited  {
+    color: #757575;
+    font-family: Georgia;
+}
+
+#header-search {
+    top: 0;
+    width: 150px;
+}
+
+#header-search input {
+    width: 130px;
+}
+
+#site_nav_global_primary {
+    padding: 10px 5px 10px 0;
+    position: static;
+    width: auto;
+    background:
+    #ccc;
+    margin-bottom: 10px;
+}
+
+#site_nav_global_primary a:link, #site_nav_global_primary a:visited {
+    color: #000000;
+}
+
+#site_nav_global_primary ul {
+    font-size: 1.5em;
+    font-family: Georgia;
+    font-style: italic;
+    float: none;
+    margin-top: 3px;
+    margin-left: 25px;
+}
+
+#site_nav_global_primary li {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#nav_login {
+    display: none;
+}
+
+#header-search input[type='submit'] {
+    display: none;
+}
+
+#site_nav_local_views ul ul.nav {
+    margin-left: 10px;
+}
+
+#core {
+    border-top: 0;
+    -webkit-box-shadow: 1px 0px 10px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    1px 0px 10px rgba(50, 50, 50, 0.75);
+    box-shadow:         1px 0px 10px rgba(50, 50, 50, 0.75);
+    margin-bottom: 10px;
+}
+
+div.entry-content {
+    font-size: 90%;
+}
+
+div.entry-content a.response::before {
+    content: "(";
+}
+
+div.entry-content a.response::after {
+    content: ")";
+}
+
+#notices_primary li {
+    border-bottom: 1px dotted #CCC;
+}
+
+#aside_primary_wrapper, #site_nav_local_views_wrapper {
+    background: #EEE;
+}
+
+#aside_primary {
+    font-size: 80%;
+}
+
+#site_nav_local_views {
+    padding-top: 5px;
+}
+
+#entity_subscriptions .vcard .photo, #entity_subscribers .vcard .photo, #entity_groups .vcard .photo {
+    margin-right: 0;
+}
+
+#popular_notices {
+    margin-bottom: 0 !important;
+}
+
+#footer {
+    background: transparent !important;
+    color: #000;
+    width: auto;
+    margin-bottom: 20px;
+}
+
+#footer ul, #footer p {
+    display: none;
+}
+
+#footer p:nth-child(3) {
+    display: block;
+    margin: 0;
+    color: #000;
+}
+
+#license_cc {
+    vertical-align: middle;
+}
+
+#footer #ch_powered {
+    display: block;
+    color: #000;
+    padding-left: 84px;
+    margin-bottom: 0;
+}
+
+/* Uncomment this if you want a 2cols layout on some pages */
+/*  #showstream #site_nav_local_views, #all #site_nav_local_views {display: none;}
+  #showstream #site_nav_local_views_wrapper, #all #site_nav_local_views_wrapper {background: none; border: none;}
+  #showstream #content, #all #content {width: 678px;}
+/* /2cols */
