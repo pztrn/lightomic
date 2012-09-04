@@ -11,5 +11,5 @@ Tell `/config.php` to use it with: `$config['site']['theme'] = 'lightomic';`
 
 ## Credits
 
-Original theme - micromic by @chimo, was a port of the "[Sidebars Suck](http://wordpress.org/extend/themes/sidebarssuck)" Wordpress Theme  
+Original theme - micromic by (@chimo)[http://sn.chromic.org/], was a port of the "[Sidebars Suck](http://wordpress.org/extend/themes/sidebarssuck)" Wordpress Theme  
 Wallpaper by [squidfingers](http://www.squidfingers.com/patterns/)
