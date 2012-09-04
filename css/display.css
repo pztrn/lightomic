@@ -28,7 +28,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #site_contact {
-    margin-left: 715px;
+    margin-left: 320px;
     width: 100%;
 }
 
@@ -68,9 +68,9 @@ h1, h2, h3, h4, h5, h6 {
     padding: 10px 5px 10px 0;
     position: static;
     width: auto;
-    background:
-    #ccc;
+    background: #ccc;
     margin-bottom: 10px;
+    font-size: 0.9em;
 }
 
 #site_nav_global_primary a:link, #site_nav_global_primary a:visited {
@@ -111,10 +111,6 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 10px;
 }
 
-div.entry-content {
-    font-size: 90%;
-}
-
 div.entry-content a.response::before {
     content: "(";
 }
@@ -132,11 +128,12 @@ div.entry-content a.response::after {
 }
 
 #aside_primary {
-    font-size: 80%;
+    font-size: 90%;
 }
 
 #site_nav_local_views {
     padding-top: 5px;
+    font-size: 0.9em;
 }
 
 #entity_subscriptions .vcard .photo, #entity_subscribers .vcard .photo, #entity_groups .vcard .photo {
@@ -180,3 +177,15 @@ div.entry-content a.response::after {
   #showstream #site_nav_local_views_wrapper, #all #site_nav_local_views_wrapper {background: none; border: none;}
   #showstream #content, #all #content {width: 678px;}
 /* /2cols */
+
+.hentry {
+    font-size: 95%;
+}
+
+.input_form_nav {
+    font-size: 0.8em;
+}
+
+.input_form {
+    font-size: 0.8em;
+}
